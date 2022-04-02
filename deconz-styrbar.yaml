@@ -86,7 +86,7 @@ blueprint:
           mode: slider
           step: 1.0
           unit_of_measurement: mireds
-  source_url: https://community.home-assistant.io/t/deconz-ikea-five-button-remote-for-lights-with-color-temp/257617
+  source_url: https://github.com/henriklehmanndk/henriklehmanndk/blob/main/deconz-styrbar.yaml
 mode: restart
 max_exceeded: silent
 variables:
