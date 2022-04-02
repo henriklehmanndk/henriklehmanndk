@@ -1,9 +1,6 @@
 blueprint:
-  name: deCONZ - IKEA five button remote for lights with color temp
-  description: 'Control light entities with an IKEA five button remote (the round ones).
-
-
-    The middle "on" button, toggles the lights on/off.
+  name: deCONZ - IKEA Styrbar
+  description: 'Control light entities with an IKEA Styrbar.
 
     Dim up/down buttons will change the brightness smoothly and can be pressed and
     held until the brightness is satisfactory.
@@ -11,8 +8,6 @@ blueprint:
     Left/right buttons will change the color temperature smoothly and can be pressed and
     held until the color temperature is satisfactory.
 
-    The min/max color temperature override values are fallback values for light entities without 
-    min_mireds and max_mireds attributes (e.g. color lights with rgb_color attribute).'
   domain: automation
   input:
     remote:
